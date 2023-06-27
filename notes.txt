@@ -1,0 +1,23 @@
+First reset margins and paddings and box-sizing
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+then add universal style to the body
+body{
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #555;
+}
+
+percentage of users browser font size setting
+html{
+    font-size: 62.5%
+}
+rem = size relative to the size of the root element
+by default 1rem = 16px(by default size of root element is 16px we change it to 62.5%)
+
+max-width: gives max width to an element which is flexible
