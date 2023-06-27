@@ -21,3 +21,6 @@ rem = size relative to the size of the root element
 by default 1rem = 16px(by default size of root element is 16px we change it to 62.5%)
 
 max-width: gives max width to an element which is flexible
+
+add border inside button:
+box-shadow: inset 0 0 0 3px #fff
